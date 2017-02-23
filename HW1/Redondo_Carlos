@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html style="background-color:lightblue;">
+ <h1 style="font-family:helvetica;">Carlos Redondo</h1><hr>
+    
+    <body style="font-family:helvetica;"><p>Hello, my name is Carlos, i was born in Dominican Republic<br>
+        I moved to the USA at the age of 12.</p>
+    <div><h1 style="font-family=helvetica;">Dominican Republic</h1>
+    <li>Located in the Caribean, it shares an island with Haiti.</li> <img src="http://learninglilies.weebly.com/uploads/4/2/7/5/42752629/3113375_orig.jpg" >
+    
+       
+       <h1 style="font-family=helvetica;">Graphic Design</h1>
+           <p style="">I graduated from school in 2015, i have an AAS in graphic design. </p>
+           <img src="http://axiomdesigns.com/wp-content/uploads/2016/11/pace-oregon-state-web-design-graphic.jpg" alt="HTML5 Icon" style="width:560px;height:420px;">
+        <p> i work for a small business as a graphic designer, i love to design cool signs and publications.</p>
+    <h1>Photography</h1>
+        <img src="Tricolor.JPG">
+        
+        
+        </div>
+    </body>
+
+    <head>Carlos Redondo &copy; </head>
+</html>
