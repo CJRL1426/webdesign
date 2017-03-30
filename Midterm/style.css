@@ -1,0 +1,186 @@
+body {background-color: slategray}
+
+header {overflow: hidden; } 
+
+h2 {text-align: center}
+
+.bio {float: right;
+         font-family:'Alegreya Sans SC'; 
+         text-align: center; padding-top: 250px; font-size:  150px}
+
+img {max-width: 1200px; height: 550px;padding-top: 50px; padding-left: 100px}
+     
+
+     body {
+	margin: 0;
+	background: #708090;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background:#434d56 ;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+    background-image: url(Images/Logo.jpg);
+  float: left;
+  padding: 1px 0; 
+    width: 40px; 
+    height: 38px; 
+
+}
+
+nav {
+  float: right;
+    padding-top: 30px
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color:#ffcc5c;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color:#fff;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+img {
+    opacity: 0.8;
+    filter: alpha(opacity=80); 
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); }
+
+p {text-align: center;font-family: 'Alegreya Sans SC'; font-size: 20px}
+
+h1 {text-align: center; font-family: 'Alegreya Sans SC'; font-size: 60px}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Snapchat*/
+.fa-snapchat {
+    background: #ffff1a;
+    color: white
+}
+/* Snapchat*/
+.fa-instagram {
+    background: #003399;
+    color: white
+}
+/* Snapchat*/
+.fa-google {
+    background: #ff4d4d
+;
+    color: white
+}
+/* Snapchat*/
+.fa-pinterest {
+    background: #e60000;
+    color: white
+}
+
+div.social {text-align: center; padding-bottom: 10px}
+
+hr {border-color:#ffcc5c;}
+
+iframe {width: 600px; height: 500px;}
