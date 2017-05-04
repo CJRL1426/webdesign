@@ -1,0 +1,193 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-family: Helvetica;
+
+    letter-spacing: .05em;
+}
+
+body {
+  width: 90%;
+  max-width: 900px;
+  min-width: 500px;
+  margin: 0 auto;
+    
+}
+
+
+#header {
+    height: 80px;
+    border-bottom: 1px solid grey;
+    
+}
+
+#main-logo {
+    width: 150px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+.search {
+    display: inline-block;
+    width: 200px;
+    height: 30px; 
+    position: relative;
+    top: -30px;
+    left: 10%;
+    background: green;
+}
+
+
+.search input { 
+    text-indent: 20px;
+    font-size: 13px;
+    color: #ededed;
+    padding-left: 50px
+
+}
+
+#searchBox{
+    width: 200px;
+    height: 30px;
+    border: 2px solid #ededed;
+}
+
+
+#loginButtons {
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    top: -30px;
+    left: 19%;
+    padding-left: 40px;
+}
+
+.gettheapp {
+    color: white;
+    background: #3e82ef;
+}
+
+.follow {
+    position: relative;
+    height: 22px;
+    background: white;
+    border: .5px solid #3e82ef;
+    
+
+}
+
+button{
+    font-size: 14px;
+    margin-left:15px;
+    margin-right: 10px;
+    height: 100%;
+    color: #3e82ef;
+    border-style: none;
+    background: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vl {border-radius: 1px;
+    ;background: black}
+
+.bio {width: 900px; 
+    height:200px;
+    padding-left: 85px;padding-top: 30px;
+    display: inline-block;
+ }
+
+h3 {float: right;
+    padding-top: 20px;
+    padding-right: 370px;
+    font-family: helvetica Neue;}
+
+
+
+ul {list-style-type:none}
+
+li {font-family: Helvetica;}
+
+#profile {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+
+}
+
+
+#container {
+    margin-top: 100px;
+    width: 900px;
+    height: 800px;
+    color: white;
+    padding:50px;
+    margin: 0px;
+    line-height: 40px;
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    padding-left: 60px;
+
+}
+   
+.grid {height: 240px;padding-left: 10px}
+
+.info { 
+    column-gap: 0px;
+    width: 750px;
+    height: 100px;
+    position:relative;
+    left: 19%;
+    bottom:50%;
+}
+
+.caption {display: inline;}
+
+
+.load {width: 900px; 
+    padding-left: 340px;
+
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: white;
+    border: 1.5px;
+    border-style: solid;
+    border-color: #3e82ef;
+    padding-left: 5px;
+    font-size: 21px
+}
+footer {
+    text-align:left;
+    padding: 20px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+#nav ul li {
+    display: block;
+    float: left;
+    padding: 3px 7px;
+    font-size: 8px;
+}
+
+#nav ul li.p {
+    text-align:right;
+   height: 10px; 
+    font-size: 8px; 
+    float: right;
+}
